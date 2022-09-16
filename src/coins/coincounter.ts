@@ -25,10 +25,10 @@ coinsCounter.height = "43px"
 coinsCounter.sourceWidth = 116
 coinsCounter.sourceHeight = 43
 coinsCounter.hAlign = 'right'
-coinsCounter.vAlign = 'bottom'
+coinsCounter.vAlign = 'top'
 coinsCounter.positionX = -15
 
-const coinCounter = new UICounter(credits, -10, -3, Color4.Black(), 22, true)
+const coinCounter = new UICounter(credits, -10, 565, Color4.Black(), 22, true)
 
 
 //Hide the FPS panel to see the coincounter
